@@ -68,6 +68,9 @@ let register = async (e)=>{
         alert("Signup Sucessfull")
         window.location.href="login.html"
     }
+    else{
+        alert("user already exist")
+    }
 }
 
 document.querySelector("#submit").addEventListener("click",register)

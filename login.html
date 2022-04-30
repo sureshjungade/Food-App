@@ -49,6 +49,9 @@ let login =  () => {
     getUserDetail(user_dat.username, res.token);
     // console.log(data);
       console.log(res)
+      if(res.error==true){
+        alert("Invalid Credentials")
+    }
     })
 
   .catch(e => {
@@ -84,6 +87,9 @@ let login =  () => {
       if(res.name!==""){
         alert("Login Sucessfull")
         window.location.href="index.html"
+    }
+    else{
+        alert("Invalid Credentials")
     }
       //window.location.href="index.html"
     })
