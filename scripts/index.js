@@ -57,18 +57,18 @@ let user = JSON.parse(localStorage.getItem("data"))
 let container = document.getElementById("product")
 console.log(user)
 
-let forcreate = (para)=>{
-    return document.createElement(para)
-}
+user.map(({name,mobile})=>{
+    let p1 =document.createElement("h1")
+    p1.innerHTML=name
+    p1.setAttribute("class","p1")
+    let p2 =document.createElement("h1")
+    p2.innerHTML=mobile
+    p2.setAttribute("class","p1")
+    
+    container.append(p1,p2)
+})
 
-let p1 =document.createElement("h1")
-p1.innerHTML=user.name
-p1.setAttribute("class","p1")
-let p2 =document.createElement("h1")
-p2.innerHTML=user.mobile
-p2.setAttribute("class","p1")
 
-container.append(p1,p2)
 
 // let p3 =forcreate("p")
 // let p4 =forcreate("p")

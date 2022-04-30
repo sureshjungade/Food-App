@@ -78,7 +78,9 @@ let login =  () => {
     .then(res => {
       console.log(res)
       showing(res)
-      localStorage.setItem("data",JSON.stringify(res))
+      let arr = [];
+      arr.push(res)
+      localStorage.setItem("data",JSON.stringify(arr))
       if(res.name!==""){
         alert("Login Sucessfull")
         window.location.href="index.html"
