@@ -1,0 +1,104 @@
+
+*{
+    background-color: rgb(136, 134, 134);
+    color: white;
+    font-family: sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#product{
+    margin-top: 20px;
+    padding: 10px 10px 20px 20px;
+    
+}
+h1{
+    text-align: center;
+    color: black;
+}
+#product>h3,p,img,a{
+    background-color: black;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+a{
+    background-color: blueviolet;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+#search_bar{
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+}
+#search{
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    margin: auto;
+    border-color: black;
+    color: black;
+}
+
+
+#form{
+    display: block;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left:500px;
+    margin-right: 500px;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#submit{
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: blue;
+    border:none;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+}
+#submit:hover{
+    color:white;
+    background-color: black;
+}
+#form input{
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    border: none;
+    height: 20px;
+    
+}
+.p1{
+    text-align: center;
+}
+#login{
+    display: block;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left:500px;
+    margin-right: 500px;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+}
+#login input{
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    border: none;
+    height: 20px;
+    
+}
